@@ -44,11 +44,111 @@ body{
 }
 /* end colores background */
 
-
 .contenedorFondo{
     background-color: #F3F6F9;
-
 }
+/* tarjetas */
+
+.principal{
+	margin-top: -20px;
+}
+.card-header-second{
+	box-shadow:1px 7px 15px #a2a2a2;
+    margin:-25px -25px 0px -25px;
+    height: 80px;
+	background: linear-gradient(-90deg, #FFDB2E, #FBD100); 
+}
+/*efecto shadows para todas las tarjetas*/
+.card-section{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+/*Para el efecto sombra al pasar por encima el mouse*/
+.card-section:hover{
+	box-shadow:1px 1px 20px #d2d2d2;
+}
+
+/* fin tarjetas */
+
+/* Resultados */
+.resultados{
+    background-color: #CFFBE2;
+    padding: 20px;
+}
+.imagenRes{
+    height:300px;
+}
+.form-control{
+    width: 50%;
+}
+/* fin resultados */
+
+/* Servicios Generales */
+
+.fondoGeneral{
+    margin-top: 80px;
+}
+.redondoServicios{
+    border-radius: 50% ;
+    border: 1px solid var(--color-gris);
+    box-shadow: 0px 7px 3px;
+}
+/* fin servicios generales */
+
+/* Propuestas casa */
+.propuestaCasa{
+    margin-top: 10%;
+}
+/* fin propuesta */
+
+/* info */
+.infoFondo{
+    margin-top: 10%;
+    background-color: #F3F6F9;
+    /* se agrega para tener centrado los informes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infor{
+    width: 60%;
+}
+/* fin info */
+
+/* Prevencion y sintomas */
+.PrevencioFondo{
+    margin-top: 10%;
+}
+.flexPrevencion{
+    display: flex;
+    flex-direction: reverse;
+}
+/* fin Prevencion y sintomas */
+
+/* <!-- oficial --> */
+.contenedorInformacion{
+    background-color: #F3F6F9;
+    margin-top: 10%;
+}
+.oficial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!-- fin oficial --> */
+
+/* footer */
+.footerFinal{
+    background-color: #38485C;
+}
+.iconOff{
+    color: var(--color-blanco);
+}
+.footerCen{
+    color: var(--color-blanco);
+}
+/* fin footer */
+
 /* media queries */
 @media screen and (max-width: 425px) {
     .img-fluid{
