@@ -146,6 +146,10 @@ body{
 }
 .footerCen{
     color: var(--color-blanco);
+    margin-top: 3%;
+}
+.lineaFoot{
+    color: var(--color-blanco);
 }
 /* fin footer */
 
