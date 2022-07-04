@@ -158,5 +158,13 @@ body{
     .img-fluid{
         max-width: 100%;
     }
+    .sintomas{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+
     
 }
